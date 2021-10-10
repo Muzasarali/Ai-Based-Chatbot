@@ -1,0 +1,51 @@
+version: "2.0"
+
+rules:
+  - rule: Say goodbye anytime the user says goodbye
+    steps:
+      - intent: goodbye
+      - action: utter_goodbye
+
+  - rule: Show Sbout us
+    steps:
+      - intent: about_bot
+      - action: utter_about_us
+
+  - rule: Say 'I am a bot' anytime the user challenges
+    steps:
+      - intent: bot_challenge
+      - action: utter_iamabot
+
+  - rule: Activate hotel From
+    steps:
+      - intent: hotel_book
+      - action: hotel_form
+      - active_loop: hotel_form
+
+  - rule: Submit hotel form
+    condition:
+      - active_loop: hotel_form
+    steps:
+      - action: hotel_form
+      - active_loop: null
+      - slot_was_set:
+          - requested_slot: null
+      - action: utter_hotel_values
+      - action: action_submit_hotel
+
+  - rule: Activate bus From
+    steps:
+      - intent: transport
+      - action: bus_form
+      - active_loop: bus_form
+
+  - rule: Submit bus form
+    condition:
+      - active_loop: bus_form
+    steps:
+      - action: bus_form
+      - active_loop: null
+      - slot_was_set:
+          - requested_slot: null
+      - action: utter_bus_values
+      - action: action_submit_bus

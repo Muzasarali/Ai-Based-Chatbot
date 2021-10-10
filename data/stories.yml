@@ -1,0 +1,75 @@
+version: "2.0"
+
+stories:
+  - story: menu path
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - action: utter_show_menu
+
+  - story: about path
+    steps:
+      - intent: about_bot
+      - action: utter_about_us
+
+  - story: places path
+    steps:
+      - intent: place_near
+      - action: utter_did_that_help
+      - slot_was_set:
+          - city_lookup: "pune"
+      - action: search_places
+
+  - story: hotel accept
+    steps:
+      - intent: hotel_book
+      - action: hotel_form
+      - active_loop: hotel_form
+      - slot_was_set:
+          - requested_slot: hotel_place
+      - slot_was_set:
+          - hotel_place: Pune
+      - slot_was_set:
+          - requested_slot: hotel_start_date
+      - slot_was_set:
+          - hotel_start_date: 221/10/10
+      - slot_was_set:
+          - requested_slot: hotel_duration
+      - slot_was_set:
+          - hotel_duration: 5
+      - slot_was_set:
+          - requested_slot: hotel_people
+      - slot_was_set:
+          - hotel_people: 4
+      - slot_was_set:
+          - requested_slot: hotel_budget
+      - slot_was_set:
+          - hotel_budget: 10000
+      - slot_was_set:
+          - requested_slot: null
+      - active_loop: null
+      - action: utter_hotel_values
+      - action: action_submit_hotel
+
+  - story: bus accept
+    steps:
+      - intent: transport
+      - action: bus_form
+      - active_loop: bus_form
+      - slot_was_set:
+          - requested_slot: bus_source
+      - slot_was_set:
+          - bus_source: pune
+      - slot_was_set:
+          - requested_slot: bus_destination
+      - slot_was_set:
+          - bus_destination: lonavala
+      - slot_was_set:
+          - requested_slot: bus_start_date
+      - slot_was_set:
+          - bus_start_date: "06/06/2021"
+      - slot_was_set:
+          - requested_slot: null
+      - active_loop: null
+      - action: utter_bus_values
+      - action: action_submit_bus

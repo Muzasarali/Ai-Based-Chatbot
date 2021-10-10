@@ -1,0 +1,142 @@
+version: "2.0"
+
+nlu:
+  - intent: greet
+    examples: |
+      - hey
+      - hello
+      - hi
+      - hello there
+      - good morning
+      - good evening
+      - moin
+      - hey there
+      - let's go
+      - hey dude
+      - goodmorning
+      - goodevening
+      - good afternoon
+
+  - intent: goodbye
+    examples: |
+      - good afternoon
+      - cu
+      - good by
+      - cee you later
+      - good night
+      - bye
+      - goodbye
+      - have a nice day
+      - see you around
+      - bye bye
+      - see you later
+
+  - intent: affirm
+    examples: |
+      - yes
+      - y
+      - indeed
+      - of course
+      - that sounds good
+      - correct
+
+  - intent: deny
+    examples: |
+      - no
+      - n
+      - never
+      - I don't think so
+      - don't like that
+      - no way
+      - not really
+
+  - intent: mood_great
+    examples: |
+      - perfect
+      - great
+      - amazing
+      - feeling like a king
+      - wonderful
+      - I am feeling very good
+      - I am great
+      - I am amazing
+      - I am going to save the world
+      - super stoked
+      - extremely good
+      - so so perfect
+      - so good
+      - so perfect
+
+  - intent: mood_unhappy
+    examples: |
+      - my day was horrible
+      - I am sad
+      - I don't feel very well
+      - I am disappointed
+      - super sad
+      - I'm so sad
+      - sad
+      - very sad
+      - unhappy
+      - not good
+      - not very good
+      - extremly sad
+      - so saad
+      - so sad
+
+  - intent: bot_challenge
+    examples: |
+      - are you a bot?
+      - are you a human?
+      - am I talking to a bot?
+      - am I talking to a human?
+
+  - lookup: city_lookup
+    examples: |
+      - panchgani
+      - lonavala
+      - mahabaleshwar
+      - alibag
+      - pune
+
+  - intent: menu
+    examples: |
+      - menu
+      - Menu
+      - MENU
+      - show Menu
+      - display menu
+
+  - intent: place_near
+    examples: |
+      - show places near to [pune](city_lookup){"entity":"city_lookup","value":"pune"}
+      - places near [pune](city_lookup) city
+      - places near to [pune](city_lookup)
+      - Tourism places near to [pune](city_lookup)
+      - Tourism near to [pune](city_lookup)
+
+  - intent: hotel_book
+    examples: |
+      - Search hotel
+      - Hotels near me
+      - hotels near me
+      - Hotels
+      - hotels for booking
+
+  - intent: transport
+    examples: |
+      - Search bus
+      - Search buses
+      - bus to travel
+      - buses to travel
+      - bus from pune to lonavala
+      - bus from pune to alibag
+      - bus from pune to panchgani
+      - bus from pune to mahabaleshwar
+
+  - intent: about_bot
+    examples: |
+      - about bot
+      - about us
+      - about bot
+      - about us

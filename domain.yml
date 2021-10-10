@@ -1,0 +1,178 @@
+version: "2.0"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - place_near
+  - menu
+  - hotel_book
+  - about_bot
+  - transport
+
+entities:
+  - city_lookup
+
+forms:
+  hotel_form:
+    hotel_place:
+      - type: from_text
+    hotel_start_date:
+      - type: from_text
+    hotel_duration:
+      - type: from_text
+    hotel_people:
+      - type: from_text
+    hotel_budget:
+      - type: from_text
+
+  bus_form:
+    bus_source:
+      - type: from_text
+    bus_destination:
+      - type: from_text
+    bus_start_date:
+      - type: from_text
+
+slots:
+  city_lookup:
+    type: text
+  hotel_place:
+    type: text
+  hotel_start_date:
+    type: text
+  hotel_duration:
+    type: text
+  hotel_people:
+    type: text
+  hotel_budget:
+    type: text
+  bus_start_date:
+    type: text
+  bus_destination:
+    type: text
+  bus_source:
+    type: text
+
+responses:
+  utter_greet:
+    - text: "Hey! I am Travelbot. How can I help you?"
+
+  utter_cheer_up:
+    - text: "Here is something to cheer you up:"
+      image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+    - text: "Did that help you? {city_lookup}"
+
+  utter_happy:
+    - text: "Great, carry on!"
+
+  utter_goodbye:
+    - text: "Bye"
+
+  utter_iamabot:
+    - text: "I am a bot, powered by Rasa."
+
+  utter_default:
+    - text: "Sorry I can't recognize this..."
+
+  utter_about_us:
+    - text: |
+        About Travel Bot
+        This is a travel bot created to resolve travellers queries
+  utter_place_info:
+    - text: |
+        "{title}".
+
+        - About {title}: 
+        {description}
+        - distance from Pune: 
+        {distance} Kms
+      image: "{image_url}"
+
+  utter_ask_hotel_place:
+    - text: In which city you want hotel?
+  utter_ask_hotel_start_date:
+    - text: when are you planning to travel?
+  utter_ask_hotel_duration:
+    - text: what is the duration of your stay?
+  utter_ask_hotel_people:
+    - text: how many people are travelling?
+  utter_ask_hotel_budget:
+    - text: what is your budget?
+  utter_ask_bus_source:
+    - text: From which city you are taking bus?
+  utter_ask_bus_destination:
+    - text: what is your destination city?
+  utter_ask_bus_start_date:
+    - text: when you are planning to travel?
+
+  utter_hotel_values:
+    - text: |
+        Hotel City : {hotel_place}
+        Date : {hotel_start_date}
+        Duration : {hotel_duration}
+        Peoples : {hotel_people}
+        Budget :{hotel_budget}
+
+  utter_bus_values:
+    - text: |
+        Source City : {bus_source}
+        Destination City : {bus_destination}
+        Date : {bus_start_date}
+
+  utter_ask_submit:
+    - text: Would you like search hotel?
+      buttons:
+        - title: "Yes, Search"
+          payload: "/affirm"
+        - title: "No, Something is wrong"
+          payload: "/deny"
+        - title: "Exit"
+          payload: "/menu"
+
+  utter_show_menu:
+    - text: "Select from below options:"
+      buttons:
+        - title: "Places to visit"
+          payload: "places near to pune city"
+        - title: "Hotels"
+          payload: "/hotel_book"
+        - title: "Mode of transport"
+          payload: "/transport"
+        - title: "About Chatbot"
+          payload: "/about_bot"
+
+  utter_hotel_info:
+    - text: |
+        "{title}"
+        This is {type} with {rating} ⭐ rating from users.
+        {room} room(s) available.
+        Price: ₹{price} including {off}.
+        Location: {location}.
+        Cancellation Deatils: {canc}
+      image: "{image}"
+
+  utter_bus_info:
+    - text: |
+        "{bus}"
+        Bus type: {bus_type}.
+        Bus Stations: {bus_station}.
+        Bus Fair: ₹{bus_fair} including offers.
+        Travel Duration: {bus_dur}.
+actions:
+  - utter_default
+  - search_places
+  - validate_hotel_form
+  - validate_bus_form
+  - action_submit_hotel
+  - action_submit_bus

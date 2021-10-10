@@ -1,0 +1,323 @@
+[{
+  "_id": {
+    "$oid": "60d26333d6380bfe9c11ca2f"
+  },
+  "search": "panchgani",
+  "title": "Major Villa-3 BHK Luxury Villa with private pool",
+  "rating": 3,
+  "type": "Villa",
+  "room": "3 BHK Villa",
+  "canc": null,
+  "price": "8847",
+  "off": "2% Off",
+  "image": "https://cdn1.goibibo.com/voy_ing/t_g/d9ce8da2416911e9abde0242ac110003.jpg",
+  "location": "Panchgani"
+},{
+  "_id": {
+    "$oid": "60d26335d6380bfe9c11ca30"
+  },
+  "search": "panchgani",
+  "title": "Walnut Villa",
+  "rating": 0,
+  "type": "Villa",
+  "room": "AC Bedroom Villa with Only Accommodation",
+  "canc": "Free Cancellation Till 14 Jul'21",
+  "price": null,
+  "off": "0% off",
+  "image": "https://cdn1.goibibo.com/voy_ing/t_g/a6ec98cc17b011e88b470224510f5e5b.jpg",
+  "location": "Central Panchgani"
+},{
+  "_id": {
+    "$oid": "60d26337d6380bfe9c11ca31"
+  },
+  "search": "panchgani",
+  "title": "Anand Heritage",
+  "rating": 3,
+  "type": "Villa",
+  "room": "4BHK Villa with Only Accommodation",
+  "canc": "Free Cancellation Till 14 Jul'21",
+  "price": "11280",
+  "off": "6% Off",
+  "image": "https://cdn1.goibibo.com/voy_ing/t_g/ff5898e465b611e9b5da0242ac110002.jpg",
+  "location": "Main Market, Bhim Nagar"
+},{
+  "_id": {
+    "$oid": "60d261c15e227c48b94d0701"
+  },
+  "search": "pune",
+  "title": "Lemon Tree Hotel, Viman Nagar, Pune",
+  "rating": 4,
+  "type": "Hotel",
+  "room": "Business Room",
+  "canc": "Free Cancellation Till 16 Jul'21",
+  "price": "1776",
+  "off": "34% Off",
+  "image": "https://cdn1.goibibo.com/voy_mmt/t_g/htl-imgs/201903251248313640-4a1a77fad24711eaa15a0242ac110009.jpg",
+  "location": "Viman Nagar"
+},{
+  "_id": {
+    "$oid": "60d261c35e227c48b94d0702"
+  },
+  "search": "pune",
+  "title": "HOTEL ROYAL ENCLAVE",
+  "rating": 2,
+  "type": "Hotel",
+  "room": "Deluxe Non AC",
+  "canc": "Free Cancellation Till Checkin",
+  "price": "659",
+  "off": "18% Off",
+  "image": "https://cdn1.goibibo.com/voy_ing/t_g/1d13745cce9811ebb0720242ac11000d.jpg",
+  "location": "Ganesh Peth"
+},{
+  "_id": {
+    "$oid": "60d261c55e227c48b94d0703"
+  },
+  "search": "pune",
+  "title": "Four Points by Sheraton Hotel & Serviced Apartments, Pune",
+  "rating": 5,
+  "type": "Hotel",
+  "room": "Deluxe Guest Room",
+  "canc": "Free Cancellation Till 16 Jul'21",
+  "price": null,
+  "off": "0% off",
+  "image": "https://cdn1.goibibo.com/voy_mmt/t_g/htl-imgs/20110217175426639-51466c7cf58a11e994820242ac110002.jpg",
+  "location": "Viman Nagar"
+},{
+  "_id": {
+    "$oid": "60d261c75e227c48b94d0704"
+  },
+  "search": "pune",
+  "title": "Lemon Tree Premier, City Center Pune",
+  "rating": 4,
+  "type": "Hotel",
+  "room": "Day Use Room ( 9 am to 6 pm stay )",
+  "canc": "Free Cancellation Till 16 Jul'21",
+  "price": "1316",
+  "off": "18% Off",
+  "image": "https://cdn1.goibibo.com/voy_mmt/t_g/htl-imgs/201811020859269367-f049a2fa416f11e9b8cb0242ac110003.jpg",
+  "location": "Near Pune Train Station"
+},{
+  "_id": {
+    "$oid": "60d261c95e227c48b94d0705"
+  },
+  "search": "pune",
+  "title": "ibis Pune Viman Nagar",
+  "rating": 3,
+  "type": "Hotel",
+  "room": "Standard Queen Room with Free Breakfast",
+  "canc": "Free Cancellation Till Checkin",
+  "price": "1800",
+  "off": "45% Off",
+  "image": "https://cdn1.goibibo.com/voy_ing/t_g/ea523b84825b11e78f79025f77df004f.jpg",
+  "location": "Viman Nagar"
+},{
+  "_id": {
+    "$oid": "60d2622325844ea21078990f"
+  },
+  "search": "lonavala",
+  "title": "The Fern An Ecotel Hotel, Lonavala",
+  "rating": 5,
+  "type": "Hotel",
+  "room": "Winter Green  Room",
+  "canc": "Free Cancellation Till 15 Jul'21",
+  "price": "11969",
+  "off": "13% Off",
+  "image": "https://cdn1.goibibo.com/voy_mmt/t_g/htl-imgs/201905291354307429-030fade8222611eaa9ef0242ac110002.jpg",
+  "location": "Varsoli"
+},{
+  "_id": {
+    "$oid": "60d2622525844ea210789910"
+  },
+  "search": "lonavala",
+  "title": "Vibhati Resort: Wooden Villa and Cottages",
+  "rating": 3,
+  "type": "Villa",
+  "room": "Luxury Cottage with Free Breakfast",
+  "canc": "Free Cancellation Till 3 Jul'21",
+  "price": "7050",
+  "off": "7% Off",
+  "image": "https://cdn1.goibibo.com/voy_mmt/t_g/htl-imgs/201801241527001327-bf2fbe242bad11ea809f0242ac110002.jpg",
+  "location": null
+},{
+  "_id": {
+    "$oid": "60d2622725844ea210789911"
+  },
+  "search": "lonavala",
+  "title": "Basilica Holiday Home.",
+  "rating": 3,
+  "type": "Resort",
+  "room": "Deluxe AC Room",
+  "canc": "Free Cancellation Till 16 Jul'21",
+  "price": "3344",
+  "off": "27% Off",
+  "image": "https://cdn1.goibibo.com/voy_ing/t_g/759b0bba293811e980410242ac110003.jpeg",
+  "location": "Thombrewadi"
+},{
+  "_id": {
+    "$oid": "60d2622925844ea210789912"
+  },
+  "search": "lonavala",
+  "title": "Exotica Villa-3 BHK Luxury Villa with private pool",
+  "rating": 0,
+  "type": "Villa",
+  "room": "3 BHK Villa with Only Accommodation",
+  "canc": "Free Cancellation Till 3 Jul'21",
+  "price": "20492",
+  "off": "6% Off",
+  "image": "https://cdn1.goibibo.com/voy_ing/t_g/1070da7cf49811e9bbdb0242ac110002.jpeg",
+  "location": null
+},{
+  "_id": {
+    "$oid": "60d2622b25844ea210789913"
+  },
+  "search": "lonavala",
+  "title": "Hotel Aristro",
+  "rating": 3,
+  "type": "Resort",
+  "room": "Deluxe AC Room pool view , Balcony & wifi",
+  "canc": "Free Cancellation Till 15 Jul'21",
+  "price": "4094",
+  "off": "9% Off",
+  "image": "https://cdn1.goibibo.com/voy_ing/t_g/fdb58a326bbe11eb8c600242ac110002.jpeg",
+  "location": "Valvan"
+},{
+  "_id": {
+    "$oid": "60d2626e0a5d07fdbb270ae6"
+  },
+  "search": "mahabaleshwar",
+  "title": "Greenwood Cottages",
+  "rating": 3,
+  "type": "Villa",
+  "room": "2BHK Bungalow (non a/c)",
+  "canc": "Free Cancellation Till 14 Jul'21",
+  "price": "5336",
+  "off": "29% Off",
+  "image": "https://cdn1.goibibo.com/voy_ing/t_g/027d098e4ec311e987f30242ac110002.jpg",
+  "location": "Nandanwan"
+},{
+  "_id": {
+    "$oid": "60d262710a5d07fdbb270ae7"
+  },
+  "search": "mahabaleshwar",
+  "title": "Hotel Vyankatesh (Complimentary Breakfast)",
+  "rating": 3,
+  "type": "Hotel",
+  "room": "Standard Room Non A/C for 2 pax",
+  "canc": "Free Cancellation Till 16 Jul'21",
+  "price": "1158",
+  "off": "20% Off",
+  "image": "https://cdn1.goibibo.com/voy_ing/t_g/0276e0f4973e11e4b0445ee5da2daa2a.jfif",
+  "location": "Central Mahabaleshwar"
+},{
+  "_id": {
+    "$oid": "60d262730a5d07fdbb270ae8"
+  },
+  "search": "mahabaleshwar",
+  "title": "Hill View Bungalow",
+  "rating": 0,
+  "type": "Villa",
+  "room": "Deluxe  Room",
+  "canc": "Free Cancellation Till 14 Jul'21",
+  "price": "2496",
+  "off": "17% Off",
+  "image": "https://cdn1.goibibo.com/voy_ing/t_g/20b5b930770211e892280ae4cc785dca.jpg",
+  "location": "Dhangarwadi"
+},{
+  "_id": {
+    "$oid": "60d262750a5d07fdbb270ae9"
+  },
+  "search": "mahabaleshwar",
+  "title": "Shivsagar Farm House",
+  "rating": 3,
+  "type": "Hotel",
+  "room": "Deluxe A/c Room (Private Garden)",
+  "canc": "Free Cancellation Till 16 Jul'21",
+  "price": "2746",
+  "off": "22% Off",
+  "image": "https://cdn1.goibibo.com/voy_ing/t_g/d5ae1ac2659d11e58c8c0015c5f4277e.jfif",
+  "location": "Bhilar"
+},{
+  "_id": {
+    "$oid": "60d262770a5d07fdbb270aea"
+  },
+  "search": "mahabaleshwar",
+  "title": "Mango Hotels Valley View",
+  "rating": 4,
+  "type": "Resort",
+  "room": "Mango Cozy",
+  "canc": "Free Cancellation Till Checkin",
+  "price": "9512",
+  "off": "14% Off",
+  "image": "https://cdn1.goibibo.com/voy_ing/t_g/6c678846274411eb97650242ac110003.jpg",
+  "location": "Central Mahabaleshwar"
+},{
+  "_id": {
+    "$oid": "60d262d9b2010d0b28105d47"
+  },
+  "search": "alibag",
+  "title": "Maple IVY",
+  "rating": 3,
+  "type": "Hotel",
+  "room": "Superior Room",
+  "canc": "Free Cancellation Till 16 Jul'21",
+  "price": "3713",
+  "off": "29% Off",
+  "image": "https://cdn1.goibibo.com/voy_ing/t_g/23ccacac72f111e7898a0a4cef95d023.jpg",
+  "location": "Near Akshi Beach"
+},{
+  "_id": {
+    "$oid": "60d262dbb2010d0b28105d48"
+  },
+  "search": "alibag",
+  "title": "Radisson Blu Resort Spa Alibaug, India",
+  "rating": 5,
+  "type": "Resort",
+  "room": "Superior Room with Free Breakfast",
+  "canc": "Free Cancellation Till Checkin",
+  "price": null,
+  "off": "0% off",
+  "image": "https://cdn1.goibibo.com/voy_mmt/t_g/htl-imgs/201507011455179052-fc68cf42072311e490dabaaf629e9523.jpg",
+  "location": "Varasoli"
+},{
+  "_id": {
+    "$oid": "60d262ddb2010d0b28105d49"
+  },
+  "search": "alibag",
+  "title": "Shalom Inn",
+  "rating": 3,
+  "type": "Villa",
+  "room": "Standard AC Room with Free Breakfast",
+  "canc": "Free Cancellation Till 14 Jul'21",
+  "price": "2468",
+  "off": "6% Off",
+  "image": "https://cdn1.goibibo.com/voy_ing/t_g/b5965378f4b211e9b4e30242ac110003.jpg",
+  "location": "Koliwada"
+},{
+  "_id": {
+    "$oid": "60d262dfb2010d0b28105d4a"
+  },
+  "search": "alibag",
+  "title": "ILIF 2708 LOTUS HOTEL",
+  "rating": 3,
+  "type": "Aparthotel",
+  "room": "Deluxe AC room",
+  "canc": null,
+  "price": "4230",
+  "off": "8% Off",
+  "image": "https://cdn1.goibibo.com/voy_ing/t_g/b23d5c16f4c711e9be030242ac110006.jpg",
+  "location": "Nagaon"
+},{
+  "_id": {
+    "$oid": "60d26331d6380bfe9c11ca2e"
+  },
+  "search": "panchgani",
+  "title": "Hotel Valley Nest",
+  "rating": 3,
+  "type": "Hotel",
+  "room": "Non A/C No View Deluxe Room",
+  "canc": "Free Cancellation Till 14 Jul'21",
+  "price": "2420",
+  "off": "50% Off",
+  "image": "https://cdn1.goibibo.com/voy_mmt/t_g/htl-imgs/201702021232234256-d20c9ae0034e11e9993b0242ac110005.jpg",
+  "location": "Main Market, Bhim Nagar"
+}]
